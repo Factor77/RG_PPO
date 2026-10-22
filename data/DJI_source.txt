@@ -1,0 +1,2 @@
+The data of Daily Closing Value of the DJI (Dow Jones Average) could be downloaded from:
+https://www.measuringworth.com/datasets/DJA/result.php

@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-08-20T08:54:37.032964+00:00",
+  "cwd": "<archive>/ultimate_experiment/1250 Tail_GAE",
+  "env": {
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "CUDA_VISIBLE_DEVICES": "0",
+    "MKL_NUM_THREADS": "12",
+    "OMP_NUM_THREADS": "12",
+    "PYTHONHASHSEED": "0"
+  },
+  "executable": "<finrl_python>",
+  "packages": {
+    "finrl": "unknown",
+    "gym": null,
+    "gymnasium": "1.2.2",
+    "matplotlib": "3.10.8",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "stable_baselines3": "2.8.0a2",
+    "torch": "2.9.1+cu128"
+  },
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]"
+}

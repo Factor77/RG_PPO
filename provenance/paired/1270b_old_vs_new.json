@@ -1,0 +1,106 @@
+{
+  "condition": "1270b",
+  "seed": 0,
+  "old_run": "<scratch>/item13_old_1270b/Results/Tail_GAE/1270b/seed_0/20261018_191901",
+  "new_run": "<results_root>/Tail_GAE/1270b/seed_0/20261018_185802",
+  "metrics": {
+    "total_return": {
+      "old": 0.08999029366850753,
+      "new": 0.08999029366850753,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "annualized_volatility": {
+      "old": 0.10994796938825706,
+      "new": 0.10994796938825706,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "max_drawdown": {
+      "old": -0.06936341578322514,
+      "new": -0.06936341578322514,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "sharpe": {
+      "old": 0.8417194930576855,
+      "new": 0.8417194930576855,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "sortino": {
+      "old": 1.2880868502286997,
+      "new": 1.2880868502286997,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "account_value_hash": {
+      "old": "5ce6093d171f480fa3ce0bc359089b81901c2f47749bf284e7a00f4e74cb1714",
+      "new": "5ce6093d171f480fa3ce0bc359089b81901c2f47749bf284e7a00f4e74cb1714",
+      "pass": true
+    },
+    "end_value": {
+      "old": 1089990.2936685076,
+      "new": 1089990.2936685076,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "rows": {
+      "old": 252,
+      "new": 252,
+      "pass": true
+    }
+  },
+  "account": {
+    "pass": true,
+    "dates_equal": true,
+    "rows": 252,
+    "max_abs_diff": 0.0,
+    "old_sha256": "ee4a52889d55235b76bf73869e52faad648e4abf60f5a3e7a12587f14f026b57",
+    "new_sha256": "ee4a52889d55235b76bf73869e52faad648e4abf60f5a3e7a12587f14f026b57"
+  },
+  "observation": {
+    "pass": true,
+    "old": {
+      "base_observation_dim": 301,
+      "policy_observation_dim": 301,
+      "risk_observation_dim": 0,
+      "risk_observation_fields": [],
+      "use_risk_observation": false
+    },
+    "new": {
+      "base_observation_dim": 301,
+      "phase9_observation_dim": 0,
+      "phase9_observation_fields": [],
+      "policy_observation_dim": 301,
+      "risk_observation_dim": 0,
+      "risk_observation_fields": [],
+      "use_risk_observation": false
+    },
+    "added_compatible": {
+      "phase9_observation_dim": 0,
+      "phase9_observation_fields": []
+    },
+    "missing": {},
+    "changed": {}
+  },
+  "config": {
+    "pass": true,
+    "common_key_diffs": {},
+    "keys_added_in_new": [
+      "phase9_observation_dim",
+      "phase9_observation_fields"
+    ],
+    "keys_removed_in_new": [],
+    "env_kwargs_equal": true,
+    "model_kwargs_equal": true
+  },
+  "rng": {
+    "pass": false,
+    "old_sha256": "7d0188e5700a9b444360b3e9f37612a2c03b33e02d2d54d8991611655d504f00",
+    "new_sha256": "4d28eb46c48fc2639e96e830ca0fa53c354e3ee2c30a66724e504b65eec5a4e4"
+  },
+  "old_status": "completed",
+  "new_status": "completed",
+  "pass": true
+}

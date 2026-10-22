@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Results/
+logs/*.log
+logs/run_summary.json
+.pytest_cache/
+logs/run_summary*.json

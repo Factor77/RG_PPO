@@ -1,0 +1,107 @@
+{
+  "condition": "1321b_hi",
+  "seed": 0,
+  "old_run": "<results_root>/Tail_GAE/1321b_hi/seed_0/20261018_185803",
+  "new_run": "<results_root>_det/Tail_GAE/1321b_hi/seed_0/20261018_191903",
+  "metrics": {
+    "total_return": {
+      "old": 0.18524775098217772,
+      "new": 0.18524775098217772,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "annualized_volatility": {
+      "old": 0.12265949154511334,
+      "new": 0.12265949154511334,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "max_drawdown": {
+      "old": -0.08041784524351592,
+      "new": -0.08041784524351592,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "sharpe": {
+      "old": 1.4526378932745208,
+      "new": 1.4526378932745208,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "sortino": {
+      "old": 2.0931153302012615,
+      "new": 2.0931153302012615,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "account_value_hash": {
+      "old": "f04cff17dec508f159b3235f62fa68598d3e6f172e0db73c02dd0284a2810af2",
+      "new": "f04cff17dec508f159b3235f62fa68598d3e6f172e0db73c02dd0284a2810af2",
+      "pass": true
+    },
+    "end_value": {
+      "old": 1185247.7509821777,
+      "new": 1185247.7509821777,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "rows": {
+      "old": 252,
+      "new": 252,
+      "pass": true
+    }
+  },
+  "account": {
+    "pass": true,
+    "dates_equal": true,
+    "rows": 252,
+    "max_abs_diff": 0.0,
+    "old_sha256": "29af4acb850212e8897eb7283bf4ec588db14a86b3d78f0852a6f20561e351dd",
+    "new_sha256": "29af4acb850212e8897eb7283bf4ec588db14a86b3d78f0852a6f20561e351dd"
+  },
+  "observation": {
+    "pass": true,
+    "old": {
+      "base_observation_dim": 301,
+      "phase9_observation_dim": 3,
+      "phase9_observation_fields": [
+        "rf20_descriptor",
+        "episode_age",
+        "since_episode_end"
+      ],
+      "policy_observation_dim": 304,
+      "risk_observation_dim": 0,
+      "risk_observation_fields": [],
+      "use_risk_observation": false
+    },
+    "new": {
+      "base_observation_dim": 301,
+      "phase9_observation_dim": 3,
+      "phase9_observation_fields": [
+        "rf20_descriptor",
+        "episode_age",
+        "since_episode_end"
+      ],
+      "policy_observation_dim": 304,
+      "risk_observation_dim": 0,
+      "risk_observation_fields": [],
+      "use_risk_observation": false
+    }
+  },
+  "config": {
+    "pass": true,
+    "common_key_diffs": {},
+    "keys_added_in_new": [],
+    "keys_removed_in_new": [],
+    "env_kwargs_equal": true,
+    "model_kwargs_equal": true
+  },
+  "rng": {
+    "pass": false,
+    "old_sha256": "354240be8ca6615ab88d0c7d396b7bf6333e49b0f571d14e6a0a7bbffb5ba270",
+    "new_sha256": "18fc6c23a41243d9cae97f1f066a3b287d7ef21c6f8c7edb948a6bdf90228c0c"
+  },
+  "old_status": "completed",
+  "new_status": "completed",
+  "pass": true
+}

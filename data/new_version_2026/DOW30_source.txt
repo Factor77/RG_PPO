@@ -1,0 +1,16 @@
+
+!pip install git+https://github.com/AI4Finance-Foundation/FinRL.git
+
+from finrl.meta.preprocessor.yahoodownloader import YahooDownloader
+
+DOW30_LATEST = ["AAPL","AMGN","AMZN","AXP","BA","CAT","CRM","CSCO","CVX","DIS",
+                "GS","HD","HON","IBM","JNJ","JPM","KO","MCD","MMM","MRK",
+                "MSFT","NKE","NVDA","PG","SHW","TRV","UNH","V","VZ","WMT"]
+
+df = YahooDownloader(start_date = '2010-01-01',
+            end_date = '2026-06-01',
+            ticker_list = DOW30_LATEST).fetch_data()
+
+import pandas as pd
+
+df.to_csv("data.csv", index=False)

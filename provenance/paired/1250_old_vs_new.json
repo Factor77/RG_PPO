@@ -1,0 +1,110 @@
+{
+  "condition": "1250",
+  "seed": 0,
+  "old_run": "<scratch>/item13_old_1250/Results/Tail_GAE/1250/seed_0/20261018_191902",
+  "new_run": "<results_root>/Tail_GAE/1250/seed_0/20261018_185803",
+  "metrics": {
+    "total_return": {
+      "old": 0.17120346984818702,
+      "new": 0.17120346984818702,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "annualized_volatility": {
+      "old": 0.13850122370563595,
+      "new": 0.13850122370563595,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "max_drawdown": {
+      "old": -0.10285780991145566,
+      "new": -0.10285780991145566,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "sharpe": {
+      "old": 1.2148865749983166,
+      "new": 1.2148865749983166,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "sortino": {
+      "old": 1.8560003584161753,
+      "new": 1.8560003584161753,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "account_value_hash": {
+      "old": "c1fe539adb9b040a06ff4d2a7df22d46fbdd3c10371a7a30639cb5991cf5a803",
+      "new": "c1fe539adb9b040a06ff4d2a7df22d46fbdd3c10371a7a30639cb5991cf5a803",
+      "pass": true
+    },
+    "end_value": {
+      "old": 1171203.469848187,
+      "new": 1171203.469848187,
+      "abs_diff": 0.0,
+      "pass": true
+    },
+    "rows": {
+      "old": 252,
+      "new": 252,
+      "pass": true
+    }
+  },
+  "account": {
+    "pass": true,
+    "dates_equal": true,
+    "rows": 252,
+    "max_abs_diff": 0.0,
+    "old_sha256": "ff77e4b45f506b440bf3c64042a1530156066e3e30c3d6b5dc65dd6c51b2149d",
+    "new_sha256": "ff77e4b45f506b440bf3c64042a1530156066e3e30c3d6b5dc65dd6c51b2149d"
+  },
+  "observation": {
+    "pass": true,
+    "old": {
+      "base_observation_dim": 301,
+      "policy_observation_dim": 301,
+      "risk_observation_dim": 5,
+      "risk_observation_fields": [
+        "current_drawdown",
+        "running_max_drawdown",
+        "drawdown_delta",
+        "downside_volatility_20",
+        "gross_exposure"
+      ],
+      "use_risk_observation": false
+    },
+    "new": {
+      "base_observation_dim": 301,
+      "policy_observation_dim": 301,
+      "risk_observation_dim": 5,
+      "risk_observation_fields": [
+        "current_drawdown",
+        "running_max_drawdown",
+        "drawdown_delta",
+        "downside_volatility_20",
+        "gross_exposure"
+      ],
+      "use_risk_observation": false
+    }
+  },
+  "config": {
+    "pass": true,
+    "common_key_diffs": {},
+    "keys_added_in_new": [
+      "phase9_observation_dim",
+      "phase9_observation_fields"
+    ],
+    "keys_removed_in_new": [],
+    "env_kwargs_equal": true,
+    "model_kwargs_equal": true
+  },
+  "rng": {
+    "pass": false,
+    "old_sha256": "ba991f7858a78036ac9dd0c381d0e483359499797881b0098e5884447ffff50a",
+    "new_sha256": "a788ee86ba52c1359a847c6263107ba45b419190c25fd52b1ed641aea1e0d029"
+  },
+  "old_status": "completed",
+  "new_status": "completed",
+  "pass": true
+}

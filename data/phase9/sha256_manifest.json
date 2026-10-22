@@ -1,0 +1,121 @@
+{
+  "calendar_sha256": "061868855941cf013c5e976ce82c6cbd01598e5e7e8ed3995f71146047b269dc",
+  "audit_sha256": "1cbef7788fa44f64fcc93203cba254820d66ab0ad59fb1e17c76016e5addac8b",
+  "source_sha256": "e47d46c6a8abbf499f6ffbffa58869f0449bd361e5921c071a4d3c8339548d81",
+  "frozen": {
+    "line_code": 9,
+    "K": 7,
+    "U": 5,
+    "merge_gap_calendar_days": 5,
+    "silence_calendar_days": 5,
+    "train_start": "2013-04-01",
+    "train_end_by_window": {
+      "0": "2025-01-02",
+      "1": "2025-04-04",
+      "2": "2025-07-08",
+      "3": "2025-10-03"
+    },
+    "base_seeds": [
+      271828,
+      314159,
+      161803
+    ],
+    "dose_control_semantics": "structure_preserving (approved 2026-09-08)"
+  },
+  "m3_anchor": [
+    {
+      "window": 0,
+      "test_down_days": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-27",
+        "2026-03-30",
+        "2026-03-31"
+      ],
+      "test_up_days": [
+        "2026-04-06",
+        "2026-04-07"
+      ]
+    },
+    {
+      "window": 1,
+      "test_down_days": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-27",
+        "2026-03-30",
+        "2026-03-31"
+      ],
+      "test_up_days": [
+        "2026-04-06",
+        "2026-04-07"
+      ]
+    },
+    {
+      "window": 2,
+      "test_down_days": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-27",
+        "2026-03-30",
+        "2026-03-31"
+      ],
+      "test_up_days": [
+        "2026-04-06",
+        "2026-04-07"
+      ]
+    },
+    {
+      "window": 3,
+      "test_down_days": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-27",
+        "2026-03-30",
+        "2026-03-31"
+      ],
+      "test_up_days": [
+        "2026-04-06",
+        "2026-04-07"
+      ]
+    }
+  ],
+  "cancellations": {
+    "0": {
+      "treatment_windows_truncated": 4,
+      "treatment_cancelled_up_days": 10,
+      "treatment_up_days": 55
+    },
+    "1": {
+      "treatment_windows_truncated": 4,
+      "treatment_cancelled_up_days": 10,
+      "treatment_up_days": 65
+    },
+    "2": {
+      "treatment_windows_truncated": 4,
+      "treatment_cancelled_up_days": 10,
+      "treatment_up_days": 65
+    },
+    "3": {
+      "treatment_windows_truncated": 4,
+      "treatment_cancelled_up_days": 10,
+      "treatment_up_days": 65
+    }
+  }
+}
